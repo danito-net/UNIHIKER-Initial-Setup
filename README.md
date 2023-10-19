@@ -39,7 +39,25 @@ I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0
 Image file: [unihiker_v0.3.5-202304.img.7z](https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.5-202304.img.7z)
 Please reffer to this [official tutorial for burning the image file](https://www.unihiker.com/wiki/burner).
 
-### 3. Check The Linux OS Version
+### 4. Update and Upgrade
 
     apt update
     apt upgrade
+
+
+### 5. Install New Version of Python3
+
+UNIHIKER using Python3.7 as a default
+
+![UNIHIKER Python versions](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-python-versions.png)
+
+Let's install a newer one (Python 3.10.13)
+
+     wget https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz
+     tar xvzf Python-3.10.13.tgz
+     cd Python-3.10.13
+     ./configure --enable-optimizations
+     make
+     make altinstall
+
+
