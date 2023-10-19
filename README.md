@@ -59,5 +59,11 @@ Let's install a newer one (Python 3.10.13)
      ./configure --enable-optimizations
      make
      make altinstall
-
+     cd /usr/bin/
+     rm python
+     ln -s /usr/local/bin/python3.10 python
+     rm python3
+     ln -s /usr/local/bin/python3.10 python3
+     
+![Python version 3.10.13](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-python-version3.10.13.png)
 
