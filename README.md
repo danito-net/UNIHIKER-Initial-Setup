@@ -10,7 +10,9 @@ Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
 * Username: root
 * Password: dfrobot
 
+
     ssh root@10.1.2.3
+
 
 ### 1. Change The Default `root` Password
 
@@ -26,3 +28,11 @@ Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
 
     uname -a
     cat /etc/os-release
+
+
+![UNIHIKER Linux OS version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-linux-os-version.png
+
+Image file: [unihiker_v0.3.5-202304.img.7z](https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.5-202304.img.7z)
+Please reffer to this [official tutorial for burning the image file](https://www.unihiker.com/wiki/burner).
+
+
