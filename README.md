@@ -5,11 +5,14 @@
 Please read the following official guide first (UNIHIKER guide from DFRobot):
 [Getting Started with UNIHIKER](https://www.unihiker.com/wiki/get-started)
 
+### 0. Connect to UNIHIKER Device Using `ssh`
+
 Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
+
 * IP Address: 10.1.2.3
 * Username: root
 * Password: dfrobot
-* Port
+* Port: 22
 
     ssh root@10.1.2.3
 
@@ -19,6 +22,8 @@ Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
     passwd
 
 ### 2. Change The Default TimeZone
+
+I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0700)
 
     timedatectl
     timedatectl set-timezone Asia/Jakarta
@@ -34,4 +39,7 @@ Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
 Image file: [unihiker_v0.3.5-202304.img.7z](https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.5-202304.img.7z)
 Please reffer to this [official tutorial for burning the image file](https://www.unihiker.com/wiki/burner).
 
+### 3. Check The Linux OS Version
 
+    apt update
+    apt upgrade
