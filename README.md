@@ -47,8 +47,14 @@ Please reffer to this [official tutorial for burning the image file](https://www
     apt upgrade
 
 
+### 5. Install `neofetch`
 
-### 5. Install `openssl`, `libssl-dev` and `lzma`
+    apt install neofetch
+    neofetch
+
+![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch.png)
+
+### 6. Install `openssl`, `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)
 
     apt install openssl libssl-dev lzma
 
