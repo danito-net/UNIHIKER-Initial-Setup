@@ -52,7 +52,7 @@ Please reffer to this [official tutorial for burning the image file](https://www
     apt install neofetch
     neofetch
 
-![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch-info.png)
+![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch.png)
 
 ### 6. Install `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)
 
