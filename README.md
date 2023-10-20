@@ -58,7 +58,7 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
 UNIHIKER using Python version 3.7.3 as a default Python installation
 
-![UNIHIKER default Python version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/default-unihiker-python3-version.png)
+![UNIHIKER default Python version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/default-unihiker-python37-version.png)
 
 If you wan't to compile the newer version, please do this following steps:
 
