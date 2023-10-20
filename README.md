@@ -23,7 +23,7 @@ Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
 
 ### 2. Change The Default TimeZone
 
-I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0700)
+I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0700); the default TimeZone is Asia/Shanghai (+0800)
 
     timedatectl
     timedatectl set-timezone Asia/Jakarta
