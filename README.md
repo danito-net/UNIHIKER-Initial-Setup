@@ -56,5 +56,8 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
 ### 6. Install `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)
 
+The default Python version in UNIHIKER is Python version 3.7
+![UNIHIKER default Python version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/default-unihiker-python-version.png)
+
     apt install libssl-dev lzma
 
