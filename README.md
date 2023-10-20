@@ -56,5 +56,5 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
 ### 6. Install `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)
 
-    apt install openssl libssl-dev lzma
+    apt install libssl-dev lzma
 
