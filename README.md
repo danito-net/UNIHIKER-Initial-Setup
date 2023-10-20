@@ -29,6 +29,8 @@ I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0
     timedatectl set-timezone Asia/Jakarta
     timedatectl
 
+![Setting the TimeZone](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/timedatectl-set-timezone.png)
+
 ### 3. Check The Linux OS Version
 
     uname -a
