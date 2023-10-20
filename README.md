@@ -36,7 +36,7 @@ I live in Cimahi, West Java - Indonesia; I set the Time Zone to Asia/Jakarta (+0
     uname -a
     cat /etc/os-release
 
-![UNIHIKER Linux OS version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-linux-os-version.png)
+![UNIHIKER Linux OS version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-os-version.png)
 
 This is the default Linux OS version from UNIHIKER's factory. The image file download link for this version here: [unihiker_v0.3.5-202304.img.7z](https://download3.dfrobot.com.cn/unihiker/img/unihiker_v0.3.5-202304.img.7z)
 Please reffer to this [official tutorial for burning the image file](https://www.unihiker.com/wiki/burner).
