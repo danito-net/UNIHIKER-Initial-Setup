@@ -54,28 +54,3 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
 ![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch.png)
 
-### 6. Install `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)
-
-UNIHIKER using Python version 3.7.3 as a default Python installation
-
-![UNIHIKER default Python version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/default-unihiker-python37-version.png)
-
-If you wan't to compile the newer version, please do this following steps:
-
-    apt install libssl-dev lzma
-    wget https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tgz
-    tar xvzf Python-3.8.18.tgz
-    cd Python-3.8.18
-    ./configure --enable-optimizations
-    make 
-    make altinstall
-
-Plese don't use all the cores for `make` process like: `make -j4` or `make -j$(nproc)`, it will restart the UNIHIKER in make process; just use `make` and be patient (just take a nap, have a dream)
-
-After compilation done, let's make Python 3.8.18 as default Python on UNIHIKER
-
-     cd /usr/bin/
-     rm python
-     ln -s /usr/local/bin/python3.8 python
-     rm python3
-     ln -s /usr/local/bin/python3.8 python3
