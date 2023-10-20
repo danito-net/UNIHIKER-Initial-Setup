@@ -57,9 +57,18 @@ Please reffer to this [official tutorial for burning the image file](https://www
 ### 6. Install `libssl-dev` and `lzma` (for Python 3.8 compiling requirements)<img width="778" alt="default-unihiker-python3-version" src="https://github.com/danito-net/UNIHIKER-Setup/assets/2394242/2b5b403d-5c76-4770-ae5c-15b39f04839e">
 
 UNIHIKER using Python version 3.7.3 as a default Python installation
+
 ![UNIHIKER default Python version](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/default-unihiker-python3-version.png)
 
 If you wan't to compile the newer version, please do this following steps:
 
     apt install libssl-dev lzma
+    wget https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tgz
+    tar xvzf Python-3.8.18.tgz
+    cd Python-3.8.18
+    ./configure --enable-optimizations
+    make 
+    make altinstall
 
+Notes:
+- Don't use all the cores for `make` process like: `make -j4` or `make -j$(nproc)`, it will restart the UNIHIKER in make process
