@@ -43,3 +43,10 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
     apt update
     apt upgrade
+
+
+
+### 5. Install `openssl` and `libssl-dev`
+
+    apt install openssl libssl-dev
+
