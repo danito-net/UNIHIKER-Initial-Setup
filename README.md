@@ -46,7 +46,7 @@ Please reffer to this [official tutorial for burning the image file](https://www
 
 
 
-### 5. Install `openssl` and `libssl-dev`
+### 5. Install `openssl`, `libssl-dev` and `lzma`
 
-    apt install openssl libssl-dev
+    apt install openssl libssl-dev lzma
 
