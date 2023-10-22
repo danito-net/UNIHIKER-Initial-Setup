@@ -5,6 +5,8 @@
 Please read the following official guide first (UNIHIKER guide from DFRobot):
 [Getting Started with UNIHIKER](https://www.unihiker.com/wiki/get-started)
 
+![UNIHIKER Burner](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-burner-download.png)
+
 ### 0. Connect to UNIHIKER Device Using `ssh`
 
 Connect UNIHIKER using USB-C cable to your laptop, access via ssh into it:
