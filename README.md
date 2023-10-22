@@ -52,7 +52,7 @@ Please reffer to this [official tutorial for burning the image file](https://www
     apt install neofetch
     neofetch
 
-![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch.png)
+![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch-10-2023.png)
 
 
 ### 6. Upgrade `pip`
