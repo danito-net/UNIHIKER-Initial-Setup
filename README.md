@@ -53,12 +53,3 @@ Please reffer to this [official tutorial for burning the image file](https://www
     neofetch
 
 ![UNIHIKER neofetch output](https://raw.githubusercontent.com/danito-net/UNIHIKER-Setup/main/images/unihiker-neofetch-10-2023.png)
-
-
-### 6. Upgrade `pip`
-
-The default `pip` version is 22.0.3 (will upgrade to current version 23.3.1)
-
-    /usr/bin/python3 -m pip install --upgrade pip
-
-
