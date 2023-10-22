@@ -1,4 +1,4 @@
-# UNIHIKER Setup
+# UNIHIKER Initial Setup
 
 ## Getting Started with UNIHIKER
 
